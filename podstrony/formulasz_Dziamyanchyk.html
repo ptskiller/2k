@@ -15,30 +15,78 @@
 
 	<form enctype="text/plain" action="mailto:mkryniew@wp.p" subject="formularz_dane" method="Post">
 		<TABLE>
-	<tr height="16">
-	<td width="2000"> 
-		 <b>E-mail</b> <br>
-		 <input name="email" size="22"> <br><br>
-
-		 <b>Nazwisko</b><br> 
-		 <input name="nazwisko" size="22" placeholder="optional"> <br> 
-		 
-		 <b>Nickname</b><br>
-		 <input name="nick" size="22" maxlength="10" placeholder="max 10 znaków"> <br><br>
-		 <b>Płeć</b><br>
-		 <input type="radio" name="Płeć" value="Mężczyzna"> Male
-	 <br>
-		 <input type="radio" name="Płeć" value="Kobieta"> Famale
-	 <br>
-		 <input type="radio" name="Płeć" value="alien"> Alien <br><br>
-
-
-		 <b>Data urodzenia</b><br>
-		 <input type="date" name="data" size="40"> 
-	 </td>
-	 </tr>
-	 <br>
-	 
+	 <TR height="100">
+		<TD width="700"> 
+			<b>E-mail</b> <br>
+			<input name="email" size="22"> <br><br>
+   
+			<b>Nazwisko</b><br> 
+			<input name="nazwisko" size="22" placeholder="optional"> <br> 
+			
+			<b>Nickname</b><br>
+			<input name="nick" size="22" maxlength="10" placeholder="max 10 znaków"> <br><br>
+			
+		<b>Płeć</b><br>
+			<input type="radio" name="Płeć" value="Mężczyzna"> Male
+		<br>
+			<input type="radio" name="Płeć" value="Kobieta"> Famale
+		<br>
+			<input type="radio" name="Płeć" value="alien"> Alien <br><br>
+   
+   
+			<b>Data urodzenia</b><br>
+			<input type="date" name="data" size="40"> 
+		<TD width="300" > 
+	   <center><font size="5" color="red"><b>Podaj środek lokomacji dojazdu do 
+	   pracy</b></font></center><br>
+		<center> <select>
+		<option value="autobus">Autobus</option>
+		<option value="motocykl">Motocykl</option>
+		<option value="prom">Prom</option>
+		<option value="samolot">Samolot</option>
+		<option value="lodz">Łódź podwodna</option>
+		<option value="kajak">Kajak</option>
+		</select> </center>
+		</TD> 
+		<TD width="500">Jaka jest Twoja ulubione ciastko?
+	   <br><br>
+	   <input type="checkbox" name="ciastko" value="k"> BEZA
+	   <br><br>
+	   <input type="checkbox" name="ciastko" value="m"> SERNIK
+	   <br><br>
+	   <input type="checkbox" name="ciastko" value="inna"> INNE
+	   <br><br><br>
+	   <nobr>Jeśli zaznaczyłeś INNE to podaj swoje ciastko<br>wpisz ciastko poniżej. Maks: 
+	   100<br>znaków</nobr>
+	   <br><br>
+	   <input name="inna" size="25" maxlength="100">
+		</TD>
+		</TR>
+	   <TR height="200">
+		<TD><b>Z jakiego urządzeia najczęściej korzystasz? </b>
+	   <br><br>
+	   <input type="radio" name="urządzeia" value="Komputer"> Komputer
+	   <br><br>
+	   <input type="radio" name="urządzeia" value="Smartphone"> Smartphone
+	   <br><br>
+	   <input type="radio" name="urządzeia" value="inne"> inne  </TD> 
+		<TD>podaj czas &nbsp &nbsp &nbsp &nbsp<input type="time"><br> 
+		podaj datę &nbsp &nbsp &nbsp&nbsp &nbsp<input type="date"> <br> 
+		wybierz kolor &nbsp &nbsp<input type="color"> <br> </TD> 
+		<TD> jaka jest wilgotność <input type="range"> <br>
+		Proszę czekać...&nbsp &nbsp &nbsp &nbsp <progress>Proszę 
+	   czekać...</progress> </TD>
+		</TR>
+	   <TR height="100">
+		<TD><button onclick="alert('A kuku')" style="height:80px;width:300px">Przycisk 
+	   niespodzianka</button></TD> 
+		<TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> 
+	   </TD> 
+		<TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+		</TR>
+		</TABLE>
+	   </form>
+	   </body>
 
 
 
